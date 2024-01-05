@@ -2,6 +2,7 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
 class ItemSimilarity:
+    
     def __init__(self, movie_title):
         self.title_df = movie_title.toPandas()
 
